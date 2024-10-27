@@ -3,7 +3,7 @@
 List
 =================
 
-* [1. Input & Output](io)
+* [1. Input & Output](#1-Input-&-Output)
 * [2. Data Types](#data-types)
 * [3. Data Types Conversion](#conversion)
 * [4. Arithmetic Operators](#arithmetic)
