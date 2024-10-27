@@ -1,10 +1,8 @@
 # Python Submission 
-<p><strong>Bintang Fathir</strong></p>
-
-<br>
-
-<p style="text-align: justify;">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;udah gw update!&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;update readme doang 😝</p>
-<p style="text-align: justify;">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <img src="https://media.tenor.com/NeubPwLVK94AAAAM/ace-attorney-phoenix-wright.gif" border="0" width="331" height="221">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<img src="https://media.tenor.com/twOolAiM02kAAAAM/edge-worth-ace-attorney.gif" border="0" width="292" height="219"></p>
+<p style="text-align: left;"><span style="font-size: 10pt;"><span style="font-size: 8pt;">udah gw update!</span></span></p>
+<p style="text-align: left;"><img src="https://media.tenor.com/NeubPwLVK94AAAAM/ace-attorney-phoenix-wright.gif" border="0" alt="ace-attorney-phoenix-wright.gif" width="135" height="93"></p>
+<p style="text-align: left;"><span style="font-size: 8pt;">update readme doang 😝</span></p>
+<p style="text-align: left;"><span style="font-size: 8pt;"><img src="https://media.tenor.com/twOolAiM02kAAAAM/edge-worth-ace-attorney.gif" border="0" alt="edge-worth-ace-attorney.gif" width="135" height="105"></span></p>
 
 List
 =================
