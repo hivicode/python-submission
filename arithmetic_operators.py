@@ -39,4 +39,3 @@ while True: # condition
 # strip() untuk menghapus spasi pada input
 # upper() untuk mengubah input lowercase menjadi uppercase
 # != if not
-# Bintang Fathir_1124102166

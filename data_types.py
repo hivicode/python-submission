@@ -14,4 +14,3 @@ var_13 = bytearray(5)
 var_14 = memoryview(bytes(5))
 
 print(("tipedata: "), type(var_2), type(var_3)) # type: choose var or ignore
-# Bintang Fathir_1124102166

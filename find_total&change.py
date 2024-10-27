@@ -5,4 +5,3 @@ print("Total Harga: ", total)
 bayar = int(input("Jumlah Pembayaran: "))
 kembalian = bayar-total
 print("Kembalian: ", kembalian)
-# Bintang Fathir_1124102166
