@@ -20,8 +20,9 @@ List
   
 ---
 ## Reference
-![W3Schools](https://www.w3schools.com/python)
-![python-forum.io](https://python-forum.io/)
+<a href = "https://www.w3schools.com/python" target= "_blank"> W3Schools </a>
+
+<a href = "https://python-forum.io/" target= "_blank"> python-forum.io </a>
 
 ---
 ## 1. Input Output
