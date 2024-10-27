@@ -15,5 +15,7 @@ List
 
 ---
 ## 1. Input & Output
+
 enter an input to be printed as output
+
 ![Input & Output](1. input_output.py)
