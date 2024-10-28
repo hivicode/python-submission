@@ -15,6 +15,7 @@ List
 * [5. Assignment Operators](#5-assignment-operators)
 * [6. Find Total & Change](#6-find-total-and-change)
 * [7. Math Module](#7-math-module)
+* [8. Pythagoras](#8-pythagoras)
   
 ---
 ## Reference
@@ -295,5 +296,39 @@ Input, Print, Output
 input float number: 5.4
 6 #ceil
 5 #floor
+```
+</details>
+
+---
+## 8. Pythagoras
+find value of c from square root of two powered value after adding them.
+<details>
+<summary>Example</summary>
+  
+Code
+```
+from math import pow, sqrt
+a = int(input("angka pertama: "))
+b = int(input("angka kedua: "))
+print()
+
+a2= int(pow(a, 2))
+b2= int(pow(b, 2))
+print(f"{a}\u00b2 =", a2)
+print(f"{b}\u00b2 =", b2)
+print()
+
+c2 = a2 + b2
+print(f"\u221A{a}\u00b2+{b}\u00b2 = \u221A{a2}+{b2} =", sqrt(c2))
+```
+Input, Print, Output
+```
+angka pertama: 2
+angka kedua: 3
+
+2² = 4
+3² = 9
+
+√2²+3² = √4+9 = 3.605551275463989
 ```
 </details>
