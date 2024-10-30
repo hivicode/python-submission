@@ -1,0 +1,22 @@
+Mencari kWh dan Biayanya
+
+1. inputkan daya lampu (dayaLampu)
+2. inputkan daya kipas (dayaKipas)
+3. inputkan daya televisi (dayaTelevisi)
+4. inputkan lama penggunaan lampu (penggunaanLampu)
+6. inputkan lama penggunaan kipas (penggunaanKipas)
+7. inputkan lama penggunaan televisi (penggunaanTelevisi)
+8. tampilkan dayaLampu, dayaKipas, dayaTelevisi, serta penggunaanLampu, penggunaanKipas, dan penggunaanTelevisi
+9. hitung energi (energiLampu, energiKipas, energiTelevisi, totalenergi)
+    energiLampu = dayaLampu multi penggunaanLampu div 1000
+    energiKipas = dayaKipas multi penggunaanKipas div 1000
+    energiTelevisi = dayaTelevisi multi penggunaanTelevisi div 1000
+    totalenergi = energiLampu add energiKipas add energiTelevisi
+10. tampilkan hasil energiKipas, energiLampu, energiTelevisi, dan totalenergi
+11. hitung biaya (biayaLampu, biayaKipas, biayaTelevisi, serta biayaharian dan biayabulanan)
+    biayaLampu = energiLampu multi hargakwh
+    biayaKipas = energiKipas multi hargakwh
+    biayaTelevisi = energiTelevisi multi hargakwh
+    biayaharian = biayaLampu add biayaKipas add biayaTelevisi
+    biayabulanan = biayaharian multi 30
+12.tampilkan hasil biayaLampu, biayaKipas, biayaTelevisi, biayaharian, dan biayabulanan

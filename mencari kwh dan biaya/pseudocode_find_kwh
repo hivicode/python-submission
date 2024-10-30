@@ -1,0 +1,58 @@
+Pseudocode find_kwh_and_its_price
+    //Mencari kWh dan biaya listrik suatu barang berdasarkan watt dan lama penggunaan.
+    //Input: daya (watt) dan lama penggunaan barang(jam), semuanya merupakan bilangan bulat positif.
+    //Output: daya (watt) dan lama penggunaan barang(jam), semuanya merupakan bilangan bulat positif.
+    //      energi (kWh) dan biaya barang, semuanya merupakan bilangan pecahan.
+
+Kamus
+    garis: string;
+    hargakwh: integer;
+    dayaLampu: integer;
+    dayaKipas: integer;
+    dayaTelevisi: integer;
+    penggunaanLampu: integer;
+    penggunaanKipas: integer;
+    penggunaanTelevisi: integer;
+    energiLampu: float;
+    energiKipas: float;
+    energiTelevisi: float;
+    totalenergi: float;
+    biayaLampu: float;
+    biayaKipas: float;
+    biayaTelevisi: float;
+    biayaharian: float;
+    biayabulanan: float;
+
+Algoritma
+{
+    IN(dayaLampu)
+    IN(dayaKipas)
+    IN(dayaTelevisi)
+    IN(penggunaanLampu)
+    IN(penggunaanKipas)
+    IN(penggunaanTelevisi)
+    OUT(dayaLampu)
+    OUT(dayaKipas)
+    OUT(dayaTelevisi)
+    OUT(penggunaanLampu)
+    OUT(penggunaanKipas)
+    OUT(penggunaanTelevisi)
+    energiLampu ← dayaLampu multi penggunaanLampu div 1000
+    energiKipas ← dayaKipas multi penggunaanKipas div 1000
+    energiTelevisi ← dayaTelevisi multi penggunaanTelevisi div 1000
+    totalenergi ← energiLampu add energiKipas add energiTelevisi
+    OUT(energiLampu)
+    OUT(energiKipas)
+    OUT(energiTelevisi)
+    OUT(totalenergi)
+    biayaLampu ← energiLampu multi hargakwh
+    biayaKipas ← energiKipas multi hargakwh
+    biayaTelevisi ← energiTelevisi multi hargakwh
+    biayaharian ← biayaLampu add biayaKipas add biayaTelevisi
+    biayabulanan ← biayaharian multi 30
+    OUT(biayaLampu)
+    OUT(biayaKipas)
+    OUT(biayaTelevisi)
+    OUT(biayaharian)
+    OUT(biayabulanan)
+}
