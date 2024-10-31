@@ -1,0 +1,38 @@
+Variabel Tetap:
+  -	hargakwh: harga per kWh yaitu Rp1500/kWh.
+
+Variabel Input:
+  -	dayaLampu: daya yang digunakan lampu, dalam watt.
+  -	dayaKipas: daya yang digunakan kipas, dalam watt.
+  -	dayaTelevisi: daya yang digunakan televisi, dalam watt.
+  -	penggunaanLampu: lama penggunaan lampu, dalam jam.
+  -	penggunaanKipas: lama penggunaan kipas, dalam jam.
+  -	penggunaanTelevisi: lama penggunaan televisi, dalam jam.
+
+Variabel Penghitungan Energi:
+  -	energiLampu: energi yang digunakan lampu, dalam kWh.
+  -	energiKipas: energi yang digunakan Kipas, dalam kWh.
+  -	energiTelevisi: energi yang digunakan Televisi, dalam kWh.
+  -	totalenergi: total energi yang digunakan semua barang, dalam kWh.
+
+Variabel Penghitungan Harga:
+  -	biayaLampu: biaya yang dihabiskan untuk lampu per hari
+  -	biayaKipas: biaya yang dihabiskan untuk kipas per hari.
+  -	biayaTelevisi: biaya yang dihabiskan untuk televisi per hari.
+  -	biayaharian: total biaya penggunaan semua barang dalam 1 hari.
+  -	biayabulanan: total biaya penggunaan semua barang dalam 1 bulan atau 30 hari.
+
+Penghitungan Energi 
+  -	Setiap barang, energi (kWh) dihitung menggunakan rumus:
+      Energi = daya x penggunaan / 1000
+Penghitungan Total Energi
+  -	Total energi (kWh) semua barang menggunakan operasi aritmatika seperti berikut :
+      totalenergi = energiLampu + energiKipas + energiTelevisi
+Penghitungan Biaya:
+  -	Menghitung biaya setiap peralatan:
+      biaya = energi x hargakwh
+Penghitungan Total Biaya Harian dan Bulanan:
+  -	Biaya Harian:
+     biayaharian = biayaLampu + biayaKipas + biayaTelevisi
+  -	Biaya Total:
+     biayabulanan = biayaharian x 30
