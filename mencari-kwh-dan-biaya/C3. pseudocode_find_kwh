@@ -1,10 +1,10 @@
-Pseudocode find_kwh_and_its_price
+PSEUDOCODE 
     //Mencari kWh dan biaya listrik suatu barang berdasarkan watt dan lama penggunaan.
     //Input: daya (watt) dan lama penggunaan barang(jam), semuanya merupakan bilangan bulat positif.
     //Output: daya (watt) dan lama penggunaan barang(jam), semuanya merupakan bilangan bulat positif.
     //      energi (kWh) dan biaya barang, semuanya merupakan bilangan pecahan.
 
-Kamus
+KAMUS
     garis: string;
     hargakwh: integer;
     dayaLampu: integer;
@@ -23,7 +23,7 @@ Kamus
     biayaharian: float;
     biayabulanan: float;
 
-Algoritma
+ALGORITMA
 {
     IN(dayaLampu)
     IN(dayaKipas)

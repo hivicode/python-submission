@@ -16,6 +16,7 @@ penggunaanKipas = int(input("Penggunaan Kipas: "))
 penggunaanTelevisi = int(input("Penggunaan Televisi: "))
 
 system("cls")
+system("cls") #membersihkan inputan
 
 # menampilkan inputan daya dan lama penggunaan
 print(f"Daya\n{garis}\nLampu: {dayaLampu} watt\nKipas: {dayaKipas} watt\nTelevisi: {dayaTelevisi} watt")
