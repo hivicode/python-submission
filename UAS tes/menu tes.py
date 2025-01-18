@@ -1,9 +1,9 @@
 from os import system
-from maintes2 import Transaksi
+from main import Transaksi
 ts = Transaksi()
 
 while True:
-    print("Menu:")
+    print("-" * 60+"\nTOKO LMB\n"+"-" * 60)
     print("1. Tambah Barang")
     print("2. Hapus Barang")
     print("3. Ubah Nama Barang")
