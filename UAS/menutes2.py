@@ -61,10 +61,10 @@ while True:
                 ts.lihat_keranjang()
 
         elif choice == 7:
-            reset_transaksi = str(input("Ingin Menghapus Semua Barang Dalam Keranjang? (y/n): "))
-            if reset_transaksi.upper() == "N":
+            hapus_keranjang = str(input("Ingin Menghapus Semua Barang Dalam Keranjang? (y/n): "))
+            if hapus_keranjang.upper() == "N":
                 print("Batal Menghapus")
-            elif reset_transaksi.upper() == "Y":
+            elif hapus_keranjang.upper() == "Y":
                 system("cls")
                 ts.hapus_semua()
             else:
