@@ -8,3 +8,13 @@ Buatlah sebuah program Python yang memungkinkan pengguna untuk memasukkan data b
     4. Menghitung total harga untuk setiap barang (jumlah * harga).
     5. Menanyakan kepada pengguna apakah ingin menambah barang lagi. Jika pengguna menjawab "y", program akan meminta data barang lagi. Jika pengguna menjawab "n", program akan berhenti.
 
+Outputnya seperti ini:
+Keranjang
+---------------
+Nama Barang: Apel
+Jumlah: 3
+Harga: 5000
+Nama Barang       | Jumlah         | Harga          | Total          
+------------------------------------------------------------
+Apel              | 3              | 5000           | 15000          
+Tambah Barang Lagi? (y/n): y
