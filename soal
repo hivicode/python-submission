@@ -1,0 +1,10 @@
+Soal:
+
+Buatlah sebuah program Python yang memungkinkan pengguna untuk memasukkan data barang ke dalam keranjang belanja. Program harus melakukan hal-hal berikut:
+
+    1. Meminta pengguna untuk memasukkan nama barang, jumlah barang, dan harga barang.
+    2. Menyimpan data barang tersebut dalam sebuah list.
+    3. Menampilkan data barang dalam format tabel dengan kolom Nama Barang, Jumlah, Harga, dan Total Harga.
+    4. Menghitung total harga untuk setiap barang (jumlah * harga).
+    5. Menanyakan kepada pengguna apakah ingin menambah barang lagi. Jika pengguna menjawab "y", program akan meminta data barang lagi. Jika pengguna menjawab "n", program akan berhenti.
+
