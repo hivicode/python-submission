@@ -35,5 +35,3 @@ print(("tipedata: "), type(var_11))
 print(("tipedata: "), type(var_12))
 print(("tipedata: "), type(var_13))
 print(("tipedata: "), type(var_14))
-
-      
