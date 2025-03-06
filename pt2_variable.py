@@ -1,4 +1,4 @@
-# VARIABEL
+# VARIABEL (studi kasus sendiri)
 # Nama: Bintang Fathir F.A
 # NIM: 1124102166
 
