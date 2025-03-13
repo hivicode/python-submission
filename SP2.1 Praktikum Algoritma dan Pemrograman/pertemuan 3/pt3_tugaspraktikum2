@@ -1,0 +1,33 @@
+# Pertemuan 3 (studi kasus sendiri)
+# Nama: Bintang Fathir F.A
+# NIM: 1124102166
+
+# Studi kasus: Membuat total pembelian belanja yang memuat hitung jumlah dari barang dan harga, hitung total, hitung diskon jika syarat total memenuhi, dsb.
+# Syarat:
+# 1. Variable ✔
+# 2. Type Data ✔
+# 3. Input Data ✔
+# 4. Casting ✔
+# 5. Arithmetic Operator ✔
+# 6. Assignment Operator ✔
+# 7. Comparison Operator ✔
+# 8. Logical Operator
+
+from os import system
+
+namabarang = input("Nama Barang: ") # Variable, Input Data
+qty = int(input("Masukkan Jumlah: ")) # Variable, Type Data ,Input Data
+harga = int(input("Masukkan Harga: "))
+subtotal = qty * harga # Arithmetic Operator w/ Variable
+minimumbelanja = 50000 # Assignment Operator
+dapatdiskon = subtotal >= minimumbelanja # Comparison Operator w/ variable
+jumlahdiskon = subtotal * 0.05
+diskon = subtotal - jumlahdiskon
+hemat = jumlahdiskon > 0 or jumlahdiskon <= 0 # Logical Operator
+totalakhir = int(diskon) # Casting from Float to Integer
+
+system("cls")
+
+print(f"Nama Barang: {namabarang}\nJumlah Barang: x{qty}\n Harga: {harga}\nSubtotal: Rp{subtotal}")
+print("-"*30)
+print(f"Memenuhi syarat untuk diskon?: {dapatdiskon}\nJumlah Diskon: Rp{jumlahdiskon}")
