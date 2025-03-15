@@ -13,11 +13,14 @@
 # 7. Comparison Operator ✔
 # 8. Logical Operator
 
+import time
 from os import system
+system("cls")
 
+print("Selamat Datang di Toko Krillgosong\n")
 namabarang = input("Nama Barang: ") # Variable, Input Data
-qty = int(input("Masukkan Jumlah: ")) # Variable, Type Data ,Input Data
-harga = int(input("Masukkan Harga: "))
+qty = int(input("Masukkan Jumlah: x")) # Variable, Type Data ,Input Data
+harga = int(input("Masukkan Harga: Rp"))
 subtotal = qty * harga # Arithmetic Operator w/ Variable
 minimumbelanja = 50000 # Assignment Operator
 dapatdiskon = subtotal >= minimumbelanja # Comparison Operator w/ variable
@@ -25,9 +28,22 @@ jumlahdiskon = subtotal * 0.05
 diskon = subtotal - jumlahdiskon
 hemat = jumlahdiskon > 0 or jumlahdiskon <= 0 # Logical Operator
 totalakhir = int(diskon) # Casting from Float to Integer
-
+time.sleep(0.5)
+print(f"\nTotal: Rp{totalakhir}")
+bayar = int(input("Masukkan Tunai: Rp"))
+kembali = bayar-totalakhir
 system("cls")
 
-print(f"Nama Barang: {namabarang}\nJumlah Barang: x{qty}\n Harga: {harga}\nSubtotal: Rp{subtotal}")
-print("-"*30)
-print(f"Memenuhi syarat untuk diskon?: {dapatdiskon}\nJumlah Diskon: Rp{jumlahdiskon}")
+print("\n{:^80}".format("Toko Krillgosong\n"))
+print("-"*80)
+print("{:<20} | {:<20} | {:<20} | {:<20}".format("Nama Barang", "Jumlah", "Harga", "Subtotal"))
+print("-"*80)
+print("{:<20} | {:<20} | {:<20} | {:<20}".format(f"{namabarang}", f"x{qty}", f"Rp{harga}", f"Rp{subtotal}"))
+print("-"*80, "\n")
+print("{:>66} : {:<20}".format("Memenuhi syarat diskon?", f"{dapatdiskon}, Mantap!"))
+print("{:>66} : {:<20}".format("Hemat?", f"{hemat}, Anda hemat Rp{int(jumlahdiskon)}"))
+print("\n{:>66} : {:<20}".format("Total", f"Rp{totalakhir}"))
+print("{:>66} : {:<20}".format("Tunai", f"Rp{bayar}"))
+print("{:>66} : {:<20}".format("Kembali", f"Rp{kembali}"))
+print("\n{:^80}".format("Terima Kasih,"))
+print("{:^80}".format("Selamat Berbelanja Kembali!\n\n\n"))
