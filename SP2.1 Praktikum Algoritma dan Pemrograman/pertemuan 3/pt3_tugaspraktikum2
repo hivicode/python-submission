@@ -11,7 +11,7 @@
 # 5. Arithmetic Operator ✔
 # 6. Assignment Operator ✔
 # 7. Comparison Operator ✔
-# 8. Logical Operator
+# 8. Logical Operator ✔
 
 import time
 from os import system
