@@ -1,3 +1,7 @@
+# Pertemuan 4 (studi kasus sendiri)
+# Nama: Bintang Fathir F.A
+# NIM: 1124102166
+
 # mengulangi item untuk ditampilkan
 mobil = ["nissan", "toyota", "mazda"]
 for i in mobil:
