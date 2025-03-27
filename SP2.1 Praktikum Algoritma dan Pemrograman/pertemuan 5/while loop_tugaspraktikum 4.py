@@ -1,3 +1,7 @@
+# Pertemuan 4 (studi kasus sendiri)
+# Nama: Bintang Fathir F.A
+# NIM: 1124102166
+
 # Studi kasus: membuat perulangan dari angka awal 0 sampai kurang dari atau sama dengan 10 dengan kelipatan 2
 
 print("While loop")
