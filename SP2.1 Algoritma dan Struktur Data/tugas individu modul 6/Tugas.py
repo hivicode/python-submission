@@ -32,8 +32,6 @@ class Queue:
     def display(self):
         print("Isi queue saat ini:", self.queue)
 
-
-# Menu interaktif
 def main():
     max_size = int(input("Masukkan kapasitas maksimal queue: "))
     q = Queue(max_size)
@@ -72,6 +70,4 @@ def main():
         else:
             print("Pilihan tidak valid. Silakan coba lagi.")
 
-if __name__ == "__main__":
-    main()
-          
+main()
