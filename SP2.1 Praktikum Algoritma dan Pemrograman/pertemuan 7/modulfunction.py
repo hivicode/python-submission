@@ -2,7 +2,6 @@
 # Nama: Bintang Fathir F.A
 # NIM: 1124102166
 
-
 def tambah(angka1, angka2):
     hasil = int(angka1+angka2)
     print(f"Hasil penambahan: {hasil}\n")
