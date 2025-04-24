@@ -1,3 +1,8 @@
+# Pertemuan 6 (studi kasus sendiri)
+# Nama: Bintang Fathir F.A
+# NIM: 1124102166
+
+
 def luastanah(panjang, lebar):
     luas = panjang*lebar
     return luas 
