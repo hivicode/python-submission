@@ -1,3 +1,7 @@
+# Pertemuan 7
+# Nama: Bintang Fathir F.A
+# NIM: 1124102166
+
 import modulfunction
 
 angka1 = int(input("Masukkan angka pertama: "))
