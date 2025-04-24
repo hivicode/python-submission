@@ -1,4 +1,4 @@
-# Pertemuan 6 (studi kasus sendiri)
+# Pertemuan 7 (penambahan input untuk panjang dan lebar)
 # Nama: Bintang Fathir F.A
 # NIM: 1124102166
 
