@@ -1,0 +1,76 @@
+DESKRIPTIF
+
+Program Kasir Mencari Total Harga
+
+1. tampilkan Menu.
+2. inputkan pilihan (1-12):
+    coba:
+        2.1
+        - jika pilih 1, inputkan nama pelanggan, 
+        - metode tambah_pelanggan dari class transaksi akan dijalankan,
+        - tampilkan hasil metode tambah_pelanggan dan ulangi menu.
+        2.2
+        - jika pilih 2,
+        - jalankan metode proses_pelanggan dari class transaksi,
+        - tampilkan hasil metode proses dan ulangi menu.
+        2.3
+        - jika pilih 3, inputkan nama barang, harga, dan jumlah. 
+        - metode tambah_barang akan dijalankan,
+        - tampilkan hasilnya dengan menjalankan metode lihat_keranjang dan ulangi menu.
+        2.4
+        - jika pilih 4, inputkan nama barang yang ingin dihapus.
+        - metode hapus_barang akan dijalankan,
+        - tampilkan hasilnya dengan menjalankan metode lihat_keranjang dan ulangi menu.
+        2.5
+        - jika pilih 5, jalankan metode kembalikan_barang.
+        - tampilkan hasil metode kembalikan_barang dan ulangi menu.
+        2.6
+        - jika pilih 6, inputkan nama barang yang ingin diubah namanya,
+        - inputkan nama baru dari barang tersebut,
+        - metode ubah_nama barang akan dijalankan,
+        - tampilkan hasilnya dengan menjalankan metode lihat_keranjang dan ulangi menu.
+        2.7
+        - jika pilih 7, inputkan nama barang yang ingin diubah jumlahnya,
+        - inputkan jumlah baru dari barang tersebut,
+        - metode ubah_jumlah barang akan dijalankan,
+        - tampilkan hasilnya dengan menjalankan metode lihat_keranjang dan ulangi menu.
+        2.8
+        - jika pilih 8, inputkan nama barang yang ingin diubah harganya,
+        - inputkan harga baru dari barang tersebut,
+        - metode ubah harga akan dijalankan,
+        - tampilkan hasilnya dengan menjalankan metode lihat_keranjang dan ulangi menu.
+        2.9
+        - jika pilih 9, jalankan fungsi untuk melihat panjang dari keranjang jika 0 maka,
+        - tampilkan Keranjang Kosong!
+        - selain itu, tampilkan dengan menjalankan metode lihat_keranjang dan ulangi menu.
+        2.10
+        - jika pilih 10, jika menginput n maka:
+            - tampilkan Batal Menghapus dan ulangi menu.
+        - jika menginput y maka:
+            - metode hapus_semua akan dijalankan, maka semua data yang ada di dalam keranjang akan dihapus dan ulangi menu.
+        - selain itu, tampilkan Mohon pilih y atau n!.
+        2.11
+        - jika pilih 11, jalankan metode total_jumlah,
+        - inputkan Jumlah Tunai untuk membayar,
+        - jalankan metode header
+        - jalankan metode lihat_keranjang
+        - jalankan metode_diskon
+        - tampilkan Tunai yang telah diinputkan dengan format yg ditentukan
+        - jalankan metode bayar
+        - inputkan apakah ingin belanja lagi
+        - jika menginput y maka:
+            - jalankan metode hapus_semua
+            - jalan metode proses_pelanggan untuk memproses pelanggan selanjutnya
+            - lanjutkan dan ulangi menu
+        - jika menginput n maka:
+            - keluar dari program.
+        - selain itu lanjutkan program dan ulangi menu.
+        2.12
+        - jika pilih 12, jika menginput y:
+            - keluar dari program.
+        - jika menginput n:
+            - lanjutkan dan ulangi menu.
+        selain itu lanjutkan program dan ulangi menu.
+
+    kecuali saat inputan tidak sesuai:
+        - tampilkan Mohon masukkan yang benar dan ulangi menu.
