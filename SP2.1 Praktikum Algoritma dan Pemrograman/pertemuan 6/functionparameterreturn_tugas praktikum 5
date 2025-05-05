@@ -1,0 +1,36 @@
+# Pertemuan 6 (studi kasus sendiri)
+# Nama: Bintang Fathir F.A
+# NIM: 1124102166
+
+from os import system
+system("cls")
+
+def header():
+    print("SELAMAT DATANG DI ")
+    print("="*20, "\n")
+
+def emas(berat, karat):
+    nilai = berat + karat
+    return nilai
+
+def harga(nilai, hargapergram):
+    totalharga = nilai * hargapergram
+    return totalharga
+
+def masukkan(item):
+    inputan = input(item + ": ")
+    return inputan
+
+def main():
+    header()
+    user = str(masukkan("Nama Anda"))
+    print(f"Hai {user}, mohon isi data dibawah ini ⇩\n")
+    beratemas = int(masukkan("Berat Emas"))
+    karatemas = int(masukkan("Karat Emas"))
+    hargaemas = int(masukkan("Harga Per gram"))
+    system("cls")
+    nilaiemas = emas(beratemas, karatemas)
+    harganya = harga(nilaiemas, hargaemas)
+    print(f"Hai {user}, berdasarkan data yang anda masukkan,")
+    print(f"Emas seberat {beratemas} gram dengan {karatemas} karat berharga Rp{harganya}")
+main()

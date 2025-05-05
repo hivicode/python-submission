@@ -31,7 +31,7 @@ def MainMenu():
 
         pilihan = str(input("Masukkan pilihan: "))
         if pilihan == "1":
-            print("Hallo")
+            print("Hello")
             obj = str(input("Object yang ingin ditambahkan: "))
             s.Push(obj)
             print("Object " + obj + " telah ditambahkan")
