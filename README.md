@@ -4,7 +4,7 @@
 <p style="text-align: left;"><span style="font-size: 8pt;">update readme doang 😝</span></p>
 <p style="text-align: left;"><span style="font-size: 8pt;"><img src="https://media.tenor.com/twOolAiM02kAAAAM/edge-worth-ace-attorney.gif" border="0" alt="edge-worth-ace-attorney.gif" width="135" height="105"></span></p>
 
-List
+List for Dasar Algoritma Pemrograman
 =================
 
 * [Reference](#reference)
